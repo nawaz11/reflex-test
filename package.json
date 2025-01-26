@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/swc-win32-x64-msvc": "15.1.6",
-    "next": "15.1.6",
+    "@next/swc-linux-x64-gnu": "15.1.6",
+    "next": "^15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -20,6 +20,6 @@
     "eslint-config-next": "15.1.6"
   },
   "optionalDependencies": {
-    "@next/swc-linux-x64-gnu": "15.1.6"
+    "@next/swc-win32-x64-msvc": "15.1.6"
   }
 }
